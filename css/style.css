@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.header{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__title{
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+}

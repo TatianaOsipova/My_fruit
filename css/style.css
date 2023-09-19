@@ -46,7 +46,17 @@ body{
 }
 
 .header__title{
-    font-size: 48px;
+    font-size: 90px;
     color: white;
-    font-weight: 700;
+    font-weight: 900;
+    background: url(../images/bg-title.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header__title span{
+    text-transform: uppercase;
 }

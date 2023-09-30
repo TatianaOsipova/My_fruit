@@ -386,7 +386,6 @@ body {
 /* styling section question start */
 
 .facts {
-  /* padding-top: 150px; */
   padding-bottom: 100px;
 }
 
@@ -402,13 +401,13 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.question__h3 {
+.facts__item-subtitle {
   text-transform: uppercase;
   color: var(--accent-color);
   margin-bottom: 21px;
 }
 
-.text-p.question__p {
+.facts__item-text {
   line-height: 25px;
 }
 

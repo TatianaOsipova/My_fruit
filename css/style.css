@@ -428,3 +428,19 @@ button:hover {
   margin-bottom: 21px;
   color: #575757;
 }
+
+/* footer start */
+
+.social__media-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright{
+  text-align: center;
+  padding-bottom: 20px;
+
+}

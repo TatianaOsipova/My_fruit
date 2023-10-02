@@ -203,7 +203,7 @@ button {
   transition: background-color 0.3s ease 0s;
 }
 
-button:hover{
+button:hover {
   background-color: #fff;
   color: orangered;
 }
@@ -426,13 +426,5 @@ button:hover{
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 21px;
-  color: #767676;
+  color: #575757;
 }
-
-.question__p {
-  margin-bottom: 28px;
-  color: var(--grey-color);
-  max-width: 730px;
-}
-
-/* styling section question end */

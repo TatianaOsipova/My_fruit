@@ -444,8 +444,8 @@ footer{
 }
 
 .social__media-icon{
-  width: 46px;
-  height: 46px;
+  width: 44px;
+  height: 44px;
 }
 
 .social__media-link a:hover,
@@ -456,5 +456,4 @@ footer{
 .copyright{
   text-align: center;
   padding-bottom: 20px;
-
 }

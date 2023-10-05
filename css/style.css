@@ -503,6 +503,41 @@ footer {
     gap: 24px;
     padding: 0 20px 50px;
   }
+
+  .about{
+    margin-bottom: 50px;
+  }
+
+  .about__title{
+    font-size: 36px;
+    padding-bottom: 50px;
+
+  }
+
+  .info-description__title{
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}
+
+@media(max-width: 520px){
+  .grid__card{
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+
+  .card-info{
+    padding: 16px;
+  }
+
+  .info-description__title {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  button{
+    font-size: 12px;
+  }
+  
 }
 
 @media(max-width: 500px){
@@ -521,4 +556,7 @@ footer {
     font-size: 30px;
   }
 
+  .about__title{
+    font-size: 30px;
+  }
 }

@@ -501,7 +501,7 @@ footer {
   .list__items{
     font-size: 18px;
     gap: 24px;
-    padding-bottom: 50px;
+    padding: 0 20px 50px;
   }
 }
 

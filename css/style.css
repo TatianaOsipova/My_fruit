@@ -518,6 +518,12 @@ footer {
     font-size: 20px;
     margin-bottom: 16px;
   }
+
+  .slider__title{
+    font-size: 36px;
+    padding-bottom: 50px;
+
+  }
 }
 
 @media(max-width: 520px){

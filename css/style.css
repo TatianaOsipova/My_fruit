@@ -522,9 +522,21 @@ footer {
   .slider__title{
     font-size: 36px;
     padding-bottom: 50px;
+    margin: 0 auto;
 
   }
+
+  .facts__title{
+    font-size: 36px;
+    padding-bottom: 50px;
+  }
+
+  .facts__item-subtitle{
+    font-size: 18px;
+  }
 }
+
+
 
 @media(max-width: 520px){
   .grid__card{

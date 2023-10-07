@@ -210,7 +210,7 @@ button:hover {
 
 /* slider start */
 
-.smoothie{
+.smoothie {
   background: #eee391;
   margin-bottom: 100px;
 }
@@ -232,7 +232,7 @@ button:hover {
   /* min-height: 100vh; */
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   overflow: hidden;
   padding: 100px 0;
 }

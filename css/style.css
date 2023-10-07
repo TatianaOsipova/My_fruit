@@ -523,14 +523,21 @@ footer {
     margin-bottom: 16px;
   }
 
-  .slider {
+  .smoothie{
     margin-bottom: 50px;
   }
-
+  
   .smoothie__title {
     font-size: 36px;
     padding-bottom: 50px;
+    padding-top: 50px;
   }
+
+  .slider {
+    margin-bottom: 50px;
+    padding: 0 0 50px;
+  }
+
 
   .facts {
     margin-bottom: 50px;

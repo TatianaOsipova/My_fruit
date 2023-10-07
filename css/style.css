@@ -158,14 +158,14 @@ body {
 
 .info-description__title {
   font-size: 24px;
-  margin-bottom: 1.2rem;
+  margin-bottom: 20px;
   line-height: 1.2;
   text-align: center;
 }
 
-.info-description__title p {
-  font-size: 1.2rem;
-  margin-bottom: .8rem;
+.info-description__text{
+  font-size: 16px;
+  margin-bottom: 12px;
 }
 
 .card__item:hover .card-overlay {
@@ -538,7 +538,6 @@ footer {
     padding: 0 0 50px;
   }
 
-
   .facts {
     margin-bottom: 50px;
   }
@@ -568,6 +567,10 @@ footer {
     margin-bottom: 14px;
   }
 
+  .info-description__text{
+    font-size: 14px;
+  }
+
   button {
     font-size: 12px;
   }
@@ -592,6 +595,7 @@ footer {
   .facts__title {
     font-size: 30px;
   }
+
 
 
 }

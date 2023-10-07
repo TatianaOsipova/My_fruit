@@ -210,17 +210,31 @@ button:hover {
 
 /* slider start */
 
+.smoothie{
+  background: #eee391;
+  margin-bottom: 100px;
+}
+
+.smoothie__title {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 100px;
+  text-transform: uppercase;
+  background: url(../images/bg-title.jpg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .slider {
   position: relative;
   width: 100%;
   /* min-height: 100vh; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: #eee391;
+  align-items: center;  
   overflow: hidden;
   padding: 100px 0;
-  margin-bottom: 100px;
 }
 
 .swiper {
@@ -228,16 +242,6 @@ button:hover {
   align-items: center;
 }
 
-.slider__title {
-  font-size: 48px;
-  text-align: center;
-  padding-bottom: 100px;
-  text-transform: uppercase;
-  background: url(../images/bg-h2.jpg);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .swiper-slide {
   width: 300px;
@@ -355,7 +359,7 @@ button:hover {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  background: url(../images/bg-h2.jpg);
+  background: url(../images/bg-title.jpg);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -460,79 +464,79 @@ footer {
 
 /* adaptive start */
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
   .header__title {
     font-size: 70px;
   }
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
   .header__title {
     font-size: 52px;
     padding: 100px 0 0 0;
   }
 
-  .main{
+  .main {
     margin-top: 50px;
   }
 
-  .main__info{
+  .main__info {
     margin-bottom: 50px;
   }
 
-  .main__info-descr{
+  .main__info-descr {
     font-size: 18px;
   }
 
-  .main__info-descr span{
+  .main__info-descr span {
     font-size: 22px;
   }
 
-  .list{
+  .list {
     margin-bottom: 50px;
   }
 
-  .list__title{
+  .list__title {
     font-size: 36px;
     padding-bottom: 50px;
   }
 
-  .list__items{
+  .list__items {
     font-size: 18px;
     gap: 24px;
     padding: 0 20px 50px;
   }
 
-  .about{
+  .about {
     margin-bottom: 50px;
   }
 
-  .about__title{
+  .about__title {
     font-size: 36px;
     padding-bottom: 50px;
 
   }
 
-  .info-description__title{
+  .info-description__title {
     font-size: 20px;
     margin-bottom: 16px;
   }
 
-  .slider{
+  .slider {
     margin-bottom: 50px;
   }
 
-  .slider__title{
+  .slider__title {
     font-size: 36px;
     padding-bottom: 50px;
   }
 
-  .facts{
+  .facts {
     margin-bottom: 50px;
   }
 
-  .facts__title{
+  .facts__title {
     font-size: 36px;
     padding-bottom: 50px;
   }
@@ -543,14 +547,12 @@ footer {
   }
 }
 
-
-
-@media(max-width: 520px){
-  .grid__card{
+@media(max-width: 520px) {
+  .grid__card {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
 
-  .card-info{
+  .card-info {
     padding: 16px;
   }
 
@@ -559,37 +561,30 @@ footer {
     margin-bottom: 14px;
   }
 
-  button{
+  button {
     font-size: 12px;
   }
-  
+
 }
 
-@media(max-width: 500px){
-  .list__items{
+@media(max-width: 500px) {
+  .list__items {
     font-size: 14px;
     padding-bottom: 30px;
   }
 }
 
-@media(max-width: 450px){
+@media(max-width: 450px) {
   .header__title {
     font-size: 42px;
   }
 
-  .list__title{
+  .list__title,
+  .about__title,
+  .slider__title,
+  .facts__title {
     font-size: 30px;
   }
 
-  .about__title{
-    font-size: 30px;
-  }
 
-  .slider__title{
-    font-size: 30px;
-  }
-
-  .facts__title{
-    font-size: 30px;
-  }
 }

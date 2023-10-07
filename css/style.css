@@ -527,7 +527,7 @@ footer {
     margin-bottom: 50px;
   }
 
-  .slider__title {
+  .smoothie__title {
     font-size: 36px;
     padding-bottom: 50px;
   }
@@ -581,7 +581,7 @@ footer {
 
   .list__title,
   .about__title,
-  .slider__title,
+  .smoothie__title,
   .facts__title {
     font-size: 30px;
   }
